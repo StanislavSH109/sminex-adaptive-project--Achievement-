@@ -442,6 +442,11 @@ img {
 .footer__nav-item:not(:last-child) {
   margin: 0 0 28px 0;
 }
+@media (max-width: 1439px) {
+  .footer__nav-item:not(:last-child) {
+    margin: 0 0 20px 0;
+  }
+}
 .footer__nav-link {
   font-size: 12px;
   font-weight: 500;
@@ -465,12 +470,24 @@ img {
   height: 32px;
   margin: 0 0 11px 0;
 }
+@media (max-width: 1439px) {
+  .footer__logo-img {
+    width: 102px;
+    height: 24px;
+  }
+}
 .footer__slogan {
   font-size: 12px;
   line-height: 15px;
   color: #212e4a;
   text-align: center;
   text-transform: uppercase;
+}
+@media (max-width: 1439px) {
+  .footer__slogan {
+    font-size: 10px;
+    line-height: 14px;
+  }
 }
 .footer__social-list {
   display: flex;
@@ -492,12 +509,24 @@ img {
   border: 1px solid #e9eaed;
   border-left: none;
 }
+@media (max-width: 1439px) {
+  .footer__social-link {
+    width: 74px;
+    height: 64px;
+  }
+}
 .footer__office {
   margin: 0 0 6px 0;
   font-size: 14px;
   line-height: 20px;
   color: #6d7484;
   text-align: center;
+}
+@media (max-width: 1439px) {
+  .footer__office {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 .footer__phone {
   font-size: 20px;
@@ -507,9 +536,20 @@ img {
   text-align: center;
   text-decoration: none;
 }
+@media (max-width: 1439px) {
+  .footer__phone {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
 
 .text-block {
   padding: 0 0 83px;
+}
+@media (max-width: 1439px) {
+  .text-block {
+    padding: 0 0 65px;
+  }
 }
 .text-block * {
   width: 100%;
@@ -522,12 +562,20 @@ img {
   margin: 0 auto 28px;
 }
 @media (max-width: 1439px) {
-  .text-block img {
+  .text-block__picture-hero {
+    width: 720px;
+  }
+  .text-block__picture-hero img {
     height: unset;
   }
 }
 .text-block figure {
   margin: 0 auto 48px;
+}
+@media (max-width: 1439px) {
+  .text-block figure {
+    width: 600px;
+  }
 }
 .text-block figure img {
   width: 800px;
@@ -546,6 +594,11 @@ img {
   line-height: 18px;
   color: rgba(212, 212, 212, 0.6);
   text-align: right;
+}
+@media (max-width: 1439px) {
+  .text-block figcaption {
+    padding: 12px 0 0 0;
+  }
 }
 .text-block h1 {
   max-width: 1200px;
@@ -569,10 +622,23 @@ img {
   line-height: 34px;
   color: #a99e96;
 }
+@media (max-width: 1439px) {
+  .text-block h2 {
+    font-size: 20px;
+    line-height: 24px;
+    width: 600px;
+  }
+}
 .text-block p {
   margin: 0 auto 16px;
   font-size: 16px;
   line-height: 24px;
+}
+@media (max-width: 1439px) {
+  .text-block p {
+    font-size: 16px;
+    width: 600px;
+  }
 }
 .text-block blockquote {
   margin: 0 auto 48px;
@@ -581,8 +647,15 @@ img {
   background: linear-gradient(90deg, rgba(76, 119, 170, 0.8) 0%, rgba(52, 86, 160, 0.8) 100%);
   border-radius: 120px;
 }
+@media (max-width: 1439px) {
+  .text-block blockquote {
+    padding: 20px;
+    max-width: 600px;
+  }
+}
 .text-block blockquote p {
   margin: 0 auto;
+  width: 560px;
 }
 .text-block q {
   font-style: italic;
@@ -596,6 +669,11 @@ img {
 .text-block ul {
   margin: 0 auto 16px;
   padding: 0 0 0 27px;
+}
+@media (max-width: 1439px) {
+  .text-block ul {
+    max-width: 600px;
+  }
 }
 .text-block ul li:not(:last-child) {
   margin: 0 auto 8px;

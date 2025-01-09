@@ -20,6 +20,10 @@
 
   &__nav-item:not(:last-child) {
     margin: 0 0 28px 0;
+
+    @include vp-1439 {
+      margin: 0 0 20px 0;
+    }
   }
 
   &__nav-link {
@@ -47,6 +51,11 @@
     width: 133px;
     height: 32px;
     margin: 0 0 11px 0;
+
+    @include vp-1439 {
+      width: 102px;
+      height: 24px;
+    }
   }
 
   &__slogan {
@@ -55,6 +64,11 @@
     color: $color-bunting;
     text-align: center;
     text-transform: uppercase;
+
+    @include vp-1439 {
+      font-size: 10px;
+      line-height: 14px;
+    }
   }
 
   &__social-list {
@@ -80,6 +94,11 @@
     color: $color-bunting;
     border: 1px solid $color-solitude;
     border-left: none;
+
+    @include vp-1439 {
+      width: 74px;
+      height: 64px;
+    }
   }
 
   &__office {
@@ -88,6 +107,11 @@
     line-height: 20px;
     color: $color-storm-grey;
     text-align: center;
+
+    @include vp-1439 {
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 
   &__phone {
@@ -97,5 +121,10 @@
     color: $color-bunting;
     text-align: center;
     text-decoration: none;
+
+    @include vp-1439 {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
 }
