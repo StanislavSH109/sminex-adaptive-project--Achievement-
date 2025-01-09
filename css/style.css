@@ -521,6 +521,11 @@ img {
   height: 540px;
   margin: 0 auto 28px;
 }
+@media (max-width: 1439px) {
+  .text-block img {
+    height: unset;
+  }
+}
 .text-block figure {
   margin: 0 auto 48px;
 }
@@ -528,6 +533,13 @@ img {
   width: 800px;
   height: 400px;
   margin: 0 0 12px;
+}
+@media (max-width: 1439px) {
+  .text-block figure img {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+  }
 }
 .text-block figcaption {
   font-size: 14px;
@@ -543,6 +555,12 @@ img {
   line-height: 44px;
   color: #a99e96;
   text-align: center;
+}
+@media (max-width: 1439px) {
+  .text-block h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 .text-block h2 {
   margin: 48px auto 16px;
