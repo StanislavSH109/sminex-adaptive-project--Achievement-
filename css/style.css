@@ -444,7 +444,7 @@ img {
 }
 @media (max-width: 1439px) {
   .footer__nav-item:not(:last-child) {
-    margin: 0 0 20px 0;
+    margin: 0 0 18px 0;
   }
 }
 .footer__nav-link {
@@ -655,7 +655,11 @@ img {
 }
 .text-block blockquote p {
   margin: 0 auto;
-  width: 560px;
+}
+@media (max-width: 1439px) {
+  .text-block blockquote p {
+    width: 560px;
+  }
 }
 .text-block q {
   font-style: italic;
