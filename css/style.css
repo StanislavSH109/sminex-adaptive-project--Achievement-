@@ -600,6 +600,7 @@ img {
 @media (max-width: 767px) {
   .text-block figure {
     width: unset;
+    margin: 0 auto 38px;
   }
 }
 .text-block figure img {
@@ -653,6 +654,12 @@ img {
     line-height: 28px;
   }
 }
+@media (max-width: 767px) {
+  .text-block h1 {
+    margin: 0 auto 40px;
+    max-width: 500px;
+  }
+}
 .text-block h2 {
   margin: 48px auto 16px;
   font-size: 32px;
@@ -669,7 +676,7 @@ img {
 }
 @media (max-width: 767px) {
   .text-block h2 {
-    margin: 48px auto 20px;
+    margin: 0 auto 20px;
   }
 }
 .text-block p {
@@ -686,6 +693,7 @@ img {
   .text-block p {
     font-size: 14px;
     line-height: 20px;
+    margin: 0 auto 20px;
   }
 }
 .text-block blockquote {
@@ -703,7 +711,7 @@ img {
 }
 @media (max-width: 767px) {
   .text-block blockquote {
-    margin: 0 auto 40px;
+    margin: 0 auto 30px;
   }
 }
 .text-block blockquote p {
