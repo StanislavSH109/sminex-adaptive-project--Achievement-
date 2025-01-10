@@ -430,11 +430,21 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 767px) {
+  .footer__content {
+    justify-content: center;
+  }
+}
 .footer__nav-list {
   width: 200px;
   margin: 0;
   padding: 36px 0 0;
   list-style: none;
+}
+@media (max-width: 767px) {
+  .footer__nav-list {
+    display: none;
+  }
 }
 .footer__nav-list--right {
   text-align: right;
@@ -556,10 +566,20 @@ img {
   max-width: 800px;
   margin: 0 auto;
 }
+@media (max-width: 767px) {
+  .text-block * {
+    max-width: 335px;
+  }
+}
 .text-block img {
   max-width: 1200px;
   height: 540px;
   margin: 0 auto 28px;
+}
+@media (max-width: 767px) {
+  .text-block img {
+    margin: 0 auto 20px;
+  }
 }
 @media (max-width: 1439px) {
   .text-block__picture-hero {
@@ -577,6 +597,11 @@ img {
     width: 600px;
   }
 }
+@media (max-width: 767px) {
+  .text-block figure {
+    width: unset;
+  }
+}
 .text-block figure img {
   width: 800px;
   height: 400px;
@@ -589,6 +614,13 @@ img {
     margin: 0 auto;
   }
 }
+@media (max-width: 767px) {
+  .text-block figure img {
+    width: 335px;
+    height: 170px;
+    margin: 0;
+  }
+}
 .text-block figcaption {
   font-size: 14px;
   line-height: 18px;
@@ -598,6 +630,12 @@ img {
 @media (max-width: 1439px) {
   .text-block figcaption {
     padding: 12px 0 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .text-block figcaption {
+    font-size: 10px;
+    line-height: 14px;
   }
 }
 .text-block h1 {
@@ -629,6 +667,11 @@ img {
     width: 600px;
   }
 }
+@media (max-width: 767px) {
+  .text-block h2 {
+    margin: 48px auto 20px;
+  }
+}
 .text-block p {
   margin: 0 auto 16px;
   font-size: 16px;
@@ -636,8 +679,13 @@ img {
 }
 @media (max-width: 1439px) {
   .text-block p {
-    font-size: 16px;
     width: 600px;
+  }
+}
+@media (max-width: 767px) {
+  .text-block p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 .text-block blockquote {
@@ -653,12 +701,22 @@ img {
     max-width: 600px;
   }
 }
+@media (max-width: 767px) {
+  .text-block blockquote {
+    margin: 0 auto 40px;
+  }
+}
 .text-block blockquote p {
   margin: 0 auto;
 }
 @media (max-width: 1439px) {
   .text-block blockquote p {
     width: 560px;
+  }
+}
+@media (max-width: 767px) {
+  .text-block blockquote p {
+    width: 305px;
   }
 }
 .text-block q {
@@ -685,4 +743,10 @@ img {
 .text-block li {
   font-size: 16px;
   line-height: 24px;
+}
+@media (max-width: 767px) {
+  .text-block li {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
