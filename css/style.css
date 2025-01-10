@@ -561,6 +561,11 @@ img {
     padding: 0 0 65px;
   }
 }
+@media (max-width: 767px) {
+  .text-block {
+    padding: 0 0 40px;
+  }
+}
 .text-block * {
   width: 100%;
   max-width: 800px;
@@ -696,6 +701,11 @@ img {
     margin: 0 auto 20px;
   }
 }
+@media (max-width: 767px) {
+  .text-block p.text-block__description {
+    margin: 0 auto 40px;
+  }
+}
 .text-block blockquote {
   margin: 0 auto 48px;
   padding: 20px 60px;
@@ -745,8 +755,19 @@ img {
     max-width: 600px;
   }
 }
+@media (max-width: 767px) {
+  .text-block ul {
+    margin: 0 auto 40px;
+    padding: 0 0 0 20px;
+  }
+}
 .text-block ul li:not(:last-child) {
   margin: 0 auto 8px;
+}
+@media (max-width: 767px) {
+  .text-block ul li:not(:last-child) {
+    margin: 0 auto 5px;
+  }
 }
 .text-block li {
   font-size: 16px;
