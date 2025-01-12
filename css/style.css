@@ -465,6 +465,13 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 }
+.footer__nav-link:hover {
+  color: #a99e96;
+}
+.footer__nav-link:focus {
+  color: #a99e96;
+  outline: none;
+}
 .footer__info {
   display: flex;
   flex-direction: column;
@@ -525,6 +532,13 @@ img {
     height: 64px;
   }
 }
+.footer__social-link:hover {
+  color: #a99e96;
+}
+.footer__social-link:focus {
+  color: #a99e96;
+  outline: none;
+}
 .footer__office {
   margin: 0 0 6px 0;
   font-size: 14px;
@@ -551,6 +565,9 @@ img {
     font-size: 18px;
     line-height: 24px;
   }
+}
+.footer__phone:focus {
+  outline: none;
 }
 
 .text-block {

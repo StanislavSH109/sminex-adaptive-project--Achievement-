@@ -43,6 +43,16 @@
     text-transform: uppercase;
   }
 
+  &__nav-link:hover {
+    color: $color-zorba;
+  }
+
+  &__nav-link:focus {
+    color: $color-zorba;
+    outline: none;
+  }
+
+
   &__info {
     display: flex;
     flex-direction: column;
@@ -109,6 +119,15 @@
     }
   }
 
+  &__social-link:hover {
+    color: $color-zorba;
+  }
+
+  &__social-link:focus {
+    color: $color-zorba;
+    outline: none;
+  }
+
   &__office {
     margin: 0 0 6px 0;
     font-size: 14px;
@@ -134,5 +153,9 @@
       font-size: 18px;
       line-height: 24px;
     }
+  }
+
+  &__phone:focus {
+    outline: none;
   }
 }
