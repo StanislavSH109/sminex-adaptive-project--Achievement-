@@ -744,6 +744,13 @@ img {
   font-weight: 500;
   color: #c99374;
 }
+.text-block a:hover {
+  color: #a99e96;
+}
+.text-block a:focus {
+  color: #a99e96;
+  outline: none;
+}
 .text-block ul {
   margin: 0 auto 16px;
   padding: 0 0 0 27px;

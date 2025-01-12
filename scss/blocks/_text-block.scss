@@ -185,6 +185,15 @@
     color: $color-feldspar;
   }
 
+  a:hover {
+    color: $color-zorba;
+  }
+
+  a:focus {
+    color: $color-zorba;
+    outline: none;
+  }
+
   ul {
     margin: 0 auto 16px;
     padding: 0 0 0 27px;
